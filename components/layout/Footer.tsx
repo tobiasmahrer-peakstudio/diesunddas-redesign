@@ -25,7 +25,7 @@ export async function Footer() {
           <FooterColumn title="Besuchen" links={footerNavigation.besuchen} />
 
           <div>
-            <h3 className="h-eyebrow mb-4">Social</h3>
+            <h2 className="h-eyebrow mb-4">Social</h2>
             <div className="flex items-center gap-3">
               {settings.instagram_url && (
                 <a
@@ -55,7 +55,7 @@ export async function Footer() {
                 </p>
               )}
             </div>
-            <h3 className="h-eyebrow mb-3 mt-8">Rechtliches</h3>
+            <h2 className="h-eyebrow mb-3 mt-8">Rechtliches</h2>
             <ul className="flex flex-col gap-2">
               {footerNavigation.rechtliches.map((link) => (
                 <li key={link.href}>
@@ -93,7 +93,7 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h3 className="h-eyebrow mb-4">{title}</h3>
+      <h2 className="h-eyebrow mb-4">{title}</h2>
       <ul className="flex flex-col gap-2.5">
         {links.map((link) => (
           <li key={link.href}>

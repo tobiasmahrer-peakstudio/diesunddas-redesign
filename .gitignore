@@ -37,6 +37,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# cloudflare (npm run cf:build / cf:deploy)
+.open-next
+.wrangler
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

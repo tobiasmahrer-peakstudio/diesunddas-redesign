@@ -51,7 +51,7 @@ export default async function GeschenkePage() {
             if (!items || items.length === 0) return null;
             return (
               <div key={type}>
-                <Eyebrow>{typeLabels[type]}</Eyebrow>
+                <h2 className="h-eyebrow mb-4">{typeLabels[type]}</h2>
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                   {items.map((gift) => (
                     <div key={gift.id}>

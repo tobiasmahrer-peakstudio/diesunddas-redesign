@@ -135,8 +135,17 @@ content/                  DAS "CMS" — jede Datei hier ist eine Tabelle
   uploads/                  Hochgeladene Bilder (vom Admin befüllt)
   messages/                 Kontaktanfragen (vom Kontaktformular befüllt)
 
-middleware.ts              Schützt /admin per Session-Cookie
 ```
+
+### Warum kein `proxy.ts` (Middleware)?
+
+Next.js 16 hat `middleware.ts` in `proxy.ts` umbenannt und lässt es nur noch
+mit der Node.js-Runtime laufen. Auf Cloudflare ist genau das laut
+`@opennextjs/cloudflare` noch **experimentell und "at your own risk"**. Statt
+uns darauf zu verlassen, wird die Anmeldung direkt geprüft — beim Rendern
+von `app/admin/(dashboard)/layout.tsx` und zusätzlich in jedem
+`/api/admin/*`-Route-Handler (`lib/auth.ts` → `isRequestAuthenticated()`).
+Das ist genauso sicher, nur minimal später im Request-Zyklus.
 
 ### CMS-Architektur
 

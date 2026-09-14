@@ -14,7 +14,10 @@ export default async function AdminDashboardLayout({
     return <AdminShell email="Login nicht eingerichtet">{children}</AdminShell>;
   }
 
-  // Belt-and-suspenders — middleware already guards /admin.
+  // The one and only guard for /admin — see the "Warum kein proxy.ts"
+  // note in the README: Cloudflare's Node.js Proxy support is still
+  // experimental, so auth is checked here and in every /api/admin/*
+  // route handler instead of relying on it.
   if (!(await isRequestAuthenticated())) redirect("/admin/login");
 
   return <AdminShell email="Angemeldet">{children}</AdminShell>;

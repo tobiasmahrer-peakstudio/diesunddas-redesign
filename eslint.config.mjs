@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Cloudflare build output (npm run cf:build) — generated, not ours.
+    ".open-next/**",
   ]),
 ]);
 
