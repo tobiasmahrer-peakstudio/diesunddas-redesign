@@ -20,7 +20,7 @@ Es gibt keine Datenbank und keinen separaten Login-Anbieter:
   (Kategorien, Texte, Öffnungszeiten, Kontaktnachrichten, …).
 - **Lesen** passiert über `raw.githubusercontent.com` — eine kostenlose CDN,
   kein Rate-Limit-Problem für eine kleine Website. Änderungen im Admin sind
-  so innert Sekunden live, **ohne** dass die Website neu gebaut werden muss.
+  live, **ohne** dass die Website neu gebaut werden muss.
 - **Schreiben** (Admin-Bereich, Bild-Upload, Kontaktformular) passiert über
   die GitHub-API mit einem Personal Access Token — jede Änderung wird ein
   echter Commit in diesem Repo.
@@ -29,9 +29,13 @@ Es gibt keine Datenbank und keinen separaten Login-Anbieter:
 - **Login** ist ein einzelnes Admin-Passwort (keine Benutzerverwaltung nötig
   für einen Ein-Personen-Betrieb).
 
-Kompromiss gegenüber einer "echten" Datenbank: Speichern dauert ein bis zwei
-Sekunden (ein API-Aufruf zu GitHub) statt Millisekunden. Für "nicht viele
-Änderungen" ist das kein spürbarer Nachteil.
+Kompromiss gegenüber einer "echten" Datenbank: Ein Speichervorgang selbst ist
+schnell (ein API-Aufruf zu GitHub), aber bis eine Änderung auf der Website
+sichtbar wird, können **bis zu ~5 Minuten** vergehen — nicht wegen dieser App,
+sondern weil `raw.githubusercontent.com` selbst zusätzlich cached (in einem
+echten Test hat es genau das gedauert). Für "nicht viele Änderungen" ist das
+kein spürbarer Nachteil, aber kein Live-Datenbank-Gefühl wie bei Supabase &
+Co. — siehe auch "Änderungen im Admin erscheinen nicht sofort" unten.
 
 ## Inhalt
 
@@ -218,9 +222,13 @@ den Dev-Server neu starten.
 exakt wie in `.env.local` eingeben (Gross-/Kleinschreibung zählt).
 
 **Änderungen im Admin erscheinen nicht sofort**
-Lesezugriffe sind bis zu 20 Sekunden zwischengespeichert
-(`next: { revalidate: 20 }` in `lib/github.ts`), um GitHub nicht bei jedem
-Seitenaufruf neu anzufragen. Ein Reload nach kurzer Wartezeit genügt.
+Das ist normal — zwei Cache-Ebenen sind beteiligt: diese App cached
+Lesezugriffe bis zu 20 Sekunden (`next: { revalidate: 20 }` in
+`lib/github.ts`), und `raw.githubusercontent.com` cached zusätzlich auf
+GitHubs Seite (in einem echten Test bis zu ~5 Minuten). Admin-Speichern
+funktioniert sofort (im Dashboard selbst siehst du „Gespeichert."), die
+öffentliche Seite zieht dann innerhalb weniger Minuten nach — kein Grund zur
+Sorge, kein erneutes Speichern nötig.
 
 **Bild-Upload schlägt fehl**
 Prüfen, ob das Bild unter ca. 4 MB liegt und ob der GitHub-Token wirklich
