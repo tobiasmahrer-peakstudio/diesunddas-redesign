@@ -1,0 +1,6 @@
+[
+  { "id": "brand-1", "name": "[LABELNAME 1 EINFÜGEN]", "description": "[BESCHREIBUNG DES LABELS EINFÜGEN]", "logo_url": null, "image_url": null, "website_url": null, "active": true, "sort_order": 1 },
+  { "id": "brand-2", "name": "[LABELNAME 2 EINFÜGEN]", "description": "[BESCHREIBUNG DES LABELS EINFÜGEN]", "logo_url": null, "image_url": null, "website_url": null, "active": true, "sort_order": 2 },
+  { "id": "brand-3", "name": "[LABELNAME 3 EINFÜGEN]", "description": "[BESCHREIBUNG DES LABELS EINFÜGEN]", "logo_url": null, "image_url": null, "website_url": null, "active": true, "sort_order": 3 },
+  { "id": "brand-4", "name": "[LABELNAME 4 EINFÜGEN]", "description": "[BESCHREIBUNG DES LABELS EINFÜGEN]", "logo_url": null, "image_url": null, "website_url": null, "active": true, "sort_order": 4 }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "wohnen", "name": "Wohnen", "slug": "wohnen", "description": "Wohnaccessoires, Keramik und kleine Schönheiten für dein Zuhause.", "image_url": null, "sort_order": 1, "active": true },
+  { "id": "mode-accessoires", "name": "Mode & Accessoires", "slug": "mode-accessoires", "description": "Sorgfältig ausgewählte Kleidung und Accessoires für jeden Tag.", "image_url": null, "sort_order": 2, "active": true },
+  { "id": "schmuck", "name": "Schmuck", "slug": "schmuck", "description": "Zeitlose und verspielte Schmuckstücke aus feinen Materialien.", "image_url": null, "sort_order": 3, "active": true },
+  { "id": "geschenke", "name": "Geschenke", "slug": "geschenke", "description": "Ideen für ein Geschenk, das von Herzen kommt.", "image_url": null, "sort_order": 4, "active": true },
+  { "id": "fine-food", "name": "Fine Food", "slug": "fine-food", "description": "Delikatessen, Getränke und regionale Spezialitäten.", "image_url": null, "sort_order": 5, "active": true },
+  { "id": "handgemachtes", "name": "Handgemachtes & Regionale Labels", "slug": "handgemachtes", "description": "Handgefertigte Stücke von kleinen Labels aus der Region.", "image_url": null, "sort_order": 6, "active": true }
+]

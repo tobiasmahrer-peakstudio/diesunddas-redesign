@@ -1,0 +1,8 @@
+[
+  { "id": "gallery-1", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 1, "active": true },
+  { "id": "gallery-2", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 2, "active": true },
+  { "id": "gallery-3", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 3, "active": true },
+  { "id": "gallery-4", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 4, "active": true },
+  { "id": "gallery-5", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 5, "active": true },
+  { "id": "gallery-6", "image_url": "", "title": null, "description": null, "category": null, "sort_order": 6, "active": true }
+]

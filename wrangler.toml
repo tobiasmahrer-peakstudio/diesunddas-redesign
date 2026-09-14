@@ -1,0 +1,10 @@
+name = "atelier-diesunddas"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+# Set the same values as in .env.local here via `wrangler pages secret put`
+# or the Cloudflare dashboard (Settings → Environment variables) —
+# never commit real values into this file.
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://www.atelierdiesunddas.ch"

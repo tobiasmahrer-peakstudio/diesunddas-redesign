@@ -1,0 +1,17 @@
+export const adminNav = [
+  { label: "Übersicht", href: "/admin" },
+  { label: "Startseite", href: "/admin/startseite" },
+  { label: "Sortiment", href: "/admin/sortiment" },
+  { label: "Inspiration", href: "/admin/inspiration" },
+  { label: "Geschenke", href: "/admin/geschenke" },
+  { label: "Aktuelles", href: "/admin/aktuelles" },
+  { label: "Galerie", href: "/admin/galerie" },
+  { label: "Labels", href: "/admin/labels" },
+  { label: "Über uns", href: "/admin/ueber-uns" },
+  { label: "Nachrichten", href: "/admin/nachrichten" },
+  { label: "Kontakt & Standort", href: "/admin/kontakt-standort" },
+  { label: "Öffnungszeiten", href: "/admin/oeffnungszeiten" },
+  { label: "SEO", href: "/admin/seo" },
+  { label: "Rechtliches", href: "/admin/rechtliches" },
+  { label: "Einstellungen", href: "/admin/einstellungen" },
+];

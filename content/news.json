@@ -1,0 +1,5 @@
+[
+  { "id": "news-1", "title": "[NEWS-TITEL 1 EINFÜGEN]", "slug": "platzhalter-news-1", "cover_image_url": null, "published_at": "2026-01-01T00:00:00.000Z", "category": null, "excerpt": "[KURZTEXT EINFÜGEN]", "content": "[LANGTEXT EINFÜGEN]", "gallery_urls": [], "active": true },
+  { "id": "news-2", "title": "[NEWS-TITEL 2 EINFÜGEN]", "slug": "platzhalter-news-2", "cover_image_url": null, "published_at": "2026-01-01T00:00:00.000Z", "category": null, "excerpt": "[KURZTEXT EINFÜGEN]", "content": "[LANGTEXT EINFÜGEN]", "gallery_urls": [], "active": true },
+  { "id": "news-3", "title": "[NEWS-TITEL 3 EINFÜGEN]", "slug": "platzhalter-news-3", "cover_image_url": null, "published_at": "2026-01-01T00:00:00.000Z", "category": null, "excerpt": "[KURZTEXT EINFÜGEN]", "content": "[LANGTEXT EINFÜGEN]", "gallery_urls": [], "active": true }
+]

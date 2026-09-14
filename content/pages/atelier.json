@@ -1,0 +1,20 @@
+{
+  "hero_title": "Das ATELIER dies & das",
+  "hero_image_url": null,
+  "intro_heading": "Unsere Geschichte",
+  "intro_text": "[GESCHICHTE DES ATELIERS EINFÜGEN]",
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "Wer steckt dahinter?",
+      "text": "[PERSÖNLICHE VORSTELLUNG DER BESITZERIN EINFÜGEN]",
+      "image_url": null
+    },
+    {
+      "id": "section-2",
+      "heading": "Was uns wichtig ist.",
+      "text": "[TEXT ZUR NACHHALTIGKEIT EINFÜGEN]",
+      "image_url": null
+    }
+  ]
+}

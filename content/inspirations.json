@@ -1,0 +1,10 @@
+[
+  { "id": "insp-1", "title": "[OUTFIT-TITEL 1 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "outfit", "gallery_urls": [], "active": true, "sort_order": 1 },
+  { "id": "insp-2", "title": "[OUTFIT-TITEL 2 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "geschenkidee", "gallery_urls": [], "active": true, "sort_order": 2 },
+  { "id": "insp-3", "title": "[OUTFIT-TITEL 3 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "neuheit", "gallery_urls": [], "active": true, "sort_order": 3 },
+  { "id": "insp-4", "title": "[OUTFIT-TITEL 4 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "saisonal", "gallery_urls": [], "active": true, "sort_order": 4 },
+  { "id": "insp-5", "title": "[OUTFIT-TITEL 5 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "outfit", "gallery_urls": [], "active": true, "sort_order": 5 },
+  { "id": "insp-6", "title": "[OUTFIT-TITEL 6 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "geschenkidee", "gallery_urls": [], "active": true, "sort_order": 6 },
+  { "id": "insp-7", "title": "[OUTFIT-TITEL 7 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "neuheit", "gallery_urls": [], "active": true, "sort_order": 7 },
+  { "id": "insp-8", "title": "[OUTFIT-TITEL 8 EINFÜGEN]", "description": "[OUTFIT-BESCHREIBUNG EINFÜGEN]", "image_url": null, "category": "saisonal", "gallery_urls": [], "active": true, "sort_order": 8 }
+]

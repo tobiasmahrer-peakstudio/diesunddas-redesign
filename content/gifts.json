@@ -1,0 +1,8 @@
+[
+  { "id": "gift-1", "title": "Geschenkkorb „Für dich“", "description": "[BESCHREIBUNG DES GESCHENKKORBS EINFÜGEN]", "image_url": null, "type": "geschenkkorb", "price": null, "link_href": null, "active": true, "sort_order": 1 },
+  { "id": "gift-2", "title": "Geschenkset „Kleine Auszeit“", "description": "[BESCHREIBUNG DES GESCHENKSETS EINFÜGEN]", "image_url": null, "type": "geschenkset", "price": null, "link_href": null, "active": true, "sort_order": 2 },
+  { "id": "gift-3", "title": "Kleines Mitbringsel", "description": "[BESCHREIBUNG EINFÜGEN]", "image_url": null, "type": "mitbringsel", "price": null, "link_href": null, "active": true, "sort_order": 3 },
+  { "id": "gift-4", "title": "Individuelle Geschenkidee", "description": "[BESCHREIBUNG EINFÜGEN]", "image_url": null, "type": "individuell", "price": null, "link_href": null, "active": true, "sort_order": 4 },
+  { "id": "gift-5", "title": "Geschenkkorb „Fine Food“", "description": "[BESCHREIBUNG EINFÜGEN]", "image_url": null, "type": "geschenkkorb", "price": null, "link_href": null, "active": true, "sort_order": 5 },
+  { "id": "gift-6", "title": "Geschenkset „Wohlfühlmomente“", "description": "[BESCHREIBUNG EINFÜGEN]", "image_url": null, "type": "geschenkset", "price": null, "link_href": null, "active": true, "sort_order": 6 }
+]

@@ -1,0 +1,9 @@
+[
+  { "weekday": "monday", "closed": true, "morning_from": null, "morning_to": null, "afternoon_from": null, "afternoon_to": null },
+  { "weekday": "tuesday", "closed": false, "morning_from": "09:00", "morning_to": "11:30", "afternoon_from": "14:00", "afternoon_to": "18:00" },
+  { "weekday": "wednesday", "closed": false, "morning_from": "09:00", "morning_to": "11:30", "afternoon_from": "14:00", "afternoon_to": "18:00" },
+  { "weekday": "thursday", "closed": false, "morning_from": "09:00", "morning_to": "11:30", "afternoon_from": "14:00", "afternoon_to": "18:00" },
+  { "weekday": "friday", "closed": false, "morning_from": "09:00", "morning_to": "11:30", "afternoon_from": "14:00", "afternoon_to": "18:00" },
+  { "weekday": "saturday", "closed": false, "morning_from": "09:00", "morning_to": "16:00", "afternoon_from": null, "afternoon_to": null },
+  { "weekday": "sunday", "closed": true, "morning_from": null, "morning_to": null, "afternoon_from": null, "afternoon_to": null }
+]
